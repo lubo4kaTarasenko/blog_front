@@ -23,4 +23,13 @@
    color: white;
    text-decoration: none;
  }
+ #main #posts{
+   text-align: justify;
+   padding: 30px 100px;
+   margin: auto;
+ }
+ #main .nav_cont{
+  padding: 0px 100px;
+ }
+
  

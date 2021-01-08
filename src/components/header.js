@@ -27,10 +27,11 @@ export default class Header extends React.Component {
   else{
     return(
       <Toolbar className='nav_cont'> 
-           <h2>Car 2 go</h2> 
+           <h2>Blog</h2> 
           <div className='header'>     
             <Button variant="contained" color='primary'><Link to="/profile">Profile</Link></Button>
             &nbsp;&nbsp;
+            <Button variant="contained" color='primary'><Link to="/home">Home</Link></Button>
           </div>
       </Toolbar> 
   )}

@@ -8,7 +8,7 @@ import Header from './components/header';
 import SignUp from './components/signUp';
 import LogIn from './components/logIn';
 import Profile from './components/profile';
-
+import Home from './components/home';
 
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
           <Route path="/sign_up" component={SignUp}/>           
           <Route path="/log_in" component={LogIn} />           
           <Route path="/profile" component={Profile}/>
+          <Route path="/home" component={Home}/>
         </Switch>      
     </Router>
 
