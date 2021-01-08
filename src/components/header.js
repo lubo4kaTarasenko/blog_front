@@ -32,6 +32,8 @@ export default class Header extends React.Component {
             <Button variant="contained" color='primary'><Link to="/profile">Profile</Link></Button>
             &nbsp;&nbsp;
             <Button variant="contained" color='primary'><Link to="/home">Home</Link></Button>
+            &nbsp;&nbsp;
+            <Button variant="contained" color='primary'><Link to="/new">New post</Link></Button>
           </div>
       </Toolbar> 
   )}

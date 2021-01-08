@@ -2,12 +2,12 @@ import UserApi from "./userApi";
 
 export default class PostApi{
 
-  createFetch(post){
+  createPostFetch(post){
     const token = new UserApi().userCoockiePresent()
     return fetch(`http://localhost:3001/api/posts?token=${token}`,{
       "method": "POST",
       "body": JSON.stringify({
-        name: post.description,
+        name: post.name,
         title: post.title,
         content: post.content,
         image: post.image,

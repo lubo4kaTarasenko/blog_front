@@ -31,5 +31,16 @@
  #main .nav_cont{
   padding: 0px 100px;
  }
+#main .post_create{
+  width: 600px;
+}
 
- 
+.post_new_cont{
+  margin: 30px 70px;
+}
+#main .create_post_cont{
+  padding: 30px;
+}
+.new_h2{
+  margin-top: -5px;
+}
