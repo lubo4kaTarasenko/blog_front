@@ -1,17 +1,19 @@
 import {AppBar,Toolbar, Button} from '@material-ui/core';
 import React from 'react';
 import { Link } from "react-router-dom";
+import cookie from 'react-cookies'
 
 export default class Header extends React.Component {
  render(){
+   const token = cookie.load('token')
    return(
     <AppBar position="static"> 
-     { this.renderIfAuth(false) }
+     { this.renderIfAuth(token) }
    </AppBar>
    )
  }
- renderIfAuth(login){
-  if (!login){
+ renderIfAuth(token){
+  if (!token){
     return(
       <Toolbar className='nav_cont'>    
         <h2>Blog</h2> 

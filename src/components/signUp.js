@@ -32,7 +32,7 @@ export default class SignUp extends React.Component {
         return;
       }
       console.log(response)
-      //api.userTokenSave(response.token)
+      api.userCoockieSave(response.token)
      // this.props.afterLoggedIn()
     })
   }
